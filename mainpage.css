@@ -55,3 +55,34 @@ button:hover{
 .hcancel{
     background-color: red;
 }
+.navbar{
+    background-color: skyblue;
+    border-radius: 2rem;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    list-style: none;
+    float: right;
+    color: black;
+    margin: 1px 1px;
+    border-radius: 2rem;
+}
+.navbar li button{
+    background-color: darkcyan;
+}
+.navbar li button:hover{    
+    background-color: blueviolet;
+}
+.navbar label{
+    color: black;
+    font-style: Calibri;
+    align-content: center;
+}
+.navbar ul a{
+    text-decoration: none;
+}
+.navbar ul a:hover{
+    color: aquamarine;
+}
